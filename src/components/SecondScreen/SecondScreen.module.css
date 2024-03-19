@@ -1,0 +1,22 @@
+.text_center {
+    text-align: center;
+}
+
+.selected {
+    display: inline-block;
+    color: #FC7614;
+    background: #262E38;
+    padding: .25rem 1.18rem;
+    border-radius: 22.5px;
+    margin-top: 1.5rem;
+}
+
+.heading {
+    color: #fff;
+}
+
+.paragraph {
+    color: #969FAD;
+    line-height: 1.5rem;
+    max-width: 21.25rem;
+}

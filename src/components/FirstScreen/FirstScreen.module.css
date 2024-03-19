@@ -1,0 +1,87 @@
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Overpass", sans-serif;
+}
+
+.first_screen {
+    max-width: 25.75rem;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    padding: 2rem 2.43rem 2rem 2rem;
+}
+
+.background_star {
+    position: relative;
+    display: inline-block;
+}
+
+.star_icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -67%);
+}
+
+.heading {
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.paragraph {
+    max-width: 21.25rem;
+    color: #969FAD;
+    font-size: .93rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.buttons_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating {
+    background: #262E38;
+    color: #7C8798;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rating:hover {
+    background: #7C8798;
+    color: white;
+}
+
+.rating:focus {
+    background: #FC7614;
+    color: #fff;
+}
+
+.submit_btn {
+    width: 100%;
+    margin-top: 2rem;
+    padding: .68rem;
+    background: #FC7614;
+    border: none;
+    color: #fff;
+    border-radius: 22.5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .93rem;
+    letter-spacing: 2px;
+}
+
+.submit_btn:hover {
+    background: #fff;
+    color: #FC7614;
+}
