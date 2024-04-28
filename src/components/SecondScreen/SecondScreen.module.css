@@ -1,3 +1,10 @@
+.section {
+    max-width: 25.75rem;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    padding: 2rem 2.43rem 2rem 2rem;
+}
+
 .text_center {
     text-align: center;
 }
